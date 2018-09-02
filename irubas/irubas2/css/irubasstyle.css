@@ -223,7 +223,7 @@ p.logo strong {
 	visibility: hidden;
 }
 #about-us article {
-	padding: 4em;
+	padding: 6em;
 }
 article h2 {
 	font-size: 4em;
@@ -374,7 +374,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 	color: #fff;
 }
 #services {
-	background: #6f9600 none repeat scroll 0 0;
+	background: #2d2e2a none repeat scroll 0 0;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
 	position: relative;
@@ -558,7 +558,7 @@ footer p, footer a:visited, footer a, footer a:hover {
   	float: right;
   }
   #about-us article {
-  	padding: 4em 2.5em;
+  	padding: 12em 4em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -585,4 +585,33 @@ footer p, footer a:visited, footer a, footer a:hover {
  h2.section-title
 {
 	color:#e7760be6;
+}
+
+#content {
+	background: none repeat scroll 0 0 #fff;
+	padding: 5rem 0;
+	text-align: center;
+	border-bottom: 1px solid #f0f0f0;
+}
+#content h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 1rem 0 0.3rem;
+	text-transform: none;
+}
+.content-block {
+	background: none repeat scroll 0 0 rgb(0, 30, 34);
+	padding: 2.5rem;
+}
+.content-block h3 {
+	color: #fff;
+}
+.content-block p {
+	color: #fff;
+}
+#content.left-align {
+	text-align: left;
+}
+#content.contact-page h2 {
+	margin: 0 0 0.625rem;
 }
