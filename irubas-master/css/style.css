@@ -743,6 +743,22 @@ input.white[type=submit]:hover{
 	font-size: 0.8em;
 }
 
+.service-explore {
+	display: inline-block;
+    width: 137px;
+    height: 50px;
+    line-height: 50px;
+    margin: 12px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+/*    color: #ea6b6e;*/
+    background: url(../images/bg_gallery-tab.png) no-repeat;
+}
+
+.service-explore a {
+	color: #f97e02;
+}
+
 /* Events - page
 ------------------------------------------------------------------------------*/
 .events #main {
