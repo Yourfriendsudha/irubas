@@ -688,7 +688,7 @@ input.white[type=submit]:hover{
 }
 .news .box img {
 	width: 370px;
-    height: 100%;
+    /* height: 100%; */
 }
 .news .box a{
 	display: block;
