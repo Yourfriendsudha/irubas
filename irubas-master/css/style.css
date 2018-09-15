@@ -1574,8 +1574,8 @@ input.white[type=submit]:hover{
 @media (-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#logo {
 		width: 142px;
-		height: 78%;
-		padding-top: 72px;
+		height: 28%;
+		padding-top: 132px;
 		background: url(../images/logo-x2.png) no-repeat;
 		background-size: 142px 132px;
 	}
