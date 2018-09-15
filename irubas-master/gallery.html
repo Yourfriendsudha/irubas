@@ -10,13 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Irubas Academy - Gallery</title>
     <link href='http://fonts.googleapis.com/css?family=Gochi+Hand|Arvo:400,700' rel='stylesheet' type='text/css'>
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -45,31 +47,31 @@
                             <ul>
                                 <li class="grid-item parties">
                                     <a href="#"><img src="images/gallery/1.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                     <li class="grid-item kids">
                                         <a href="#"><img src="images/gallery/2.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                         <li class="grid-item kids">
                                             <a href="#"><img src="images/gallery/3.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                             <li class="grid-item parties">
                                                 <a href="#"><img src="images/gallery/4.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                 <li class="grid-item kids">
                                                     <a href="#"><img src="images/gallery/5.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                     <li class="grid-item kids">
                                                         <a href="#"><img src="images/gallery/6.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                         <li class="grid-item meeting">
                                                             <a href="#"><img src="images/gallery/7.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                             <li class="grid-item kids">
                                                                 <a href="#"><img src="images/gallery/8.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                                 <li class="grid-item meeting">
                                                                     <a href="#"><img src="images/gallery/9.jpg" alt="" />
-								<div class="mask"></div></a>
+                                <div class="mask"></div></a>
                                                                 </li>
                             </ul>
                 </section>
@@ -105,10 +107,11 @@
                                     <div class="col">
                                         <h3>contact us</h3>
                                         <p class="form-newsletter">Do you like to hear more from us.</p>
-                                        <form action="#" class="form-newsletter">
+                                        <form class="form-newsletter" name="sentMessage" id="contactForm">
                                             <fieldset>
-                                                <input type="email" placeholder="Your email..." />
+                                                <input type="email" id="email" name="email" placeholder="Your email..." autocomplete="off" required/>
                                                 <input class="btn white" type="submit" value="Subscribe" />
+                                                <div id="success"></div>
                                             </fieldset>
                                         </form>
                                     </div>
@@ -135,10 +138,13 @@
         </footer>
     </div>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

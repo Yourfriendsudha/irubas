@@ -202,10 +202,11 @@
                                         <div class="col">
                                             <h3>contact us</h3>
                                             <p class="form-newsletter">Do you like to hear more from us.</p>
-                                            <form action="#" class="form-newsletter">
+                                            <form class="form-newsletter" name="sentMessage" id="contactForm">
                                                 <fieldset>
-                                                    <input type="email" placeholder="Your email..." />
+                                                    <input type="email" id="email" name="email" placeholder="Your email..." required autocomplete="off" />
                                                     <input class="btn white" type="submit" value="Subscribe" />
+                                                    <div id="success"></div>
                                                 </fieldset>
                                             </form>
                                         </div>
@@ -234,7 +235,9 @@
             <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
             <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
             <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
             <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/contact.js"></script>
             <script type="text/javascript" src="js/main.js"></script>
             <!-- <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script> -->
             <!-- <script type="text/javascript">
