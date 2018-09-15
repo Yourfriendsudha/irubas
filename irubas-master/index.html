@@ -18,10 +18,12 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-   <style>
-   .m1{width:100%!important}
-
-</style>   <!--[if lt IE 9]>
+    <style>
+    .m1 {
+        width: 100%!important
+    }
+    </style>
+    <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
@@ -34,11 +36,12 @@
                 <a id="logo" href="index.html"></a>
                 <div class="bar-holder">
                     <a class="menu_trigger" href="#"></a>
-                    <nav id="nav" class="active" >
+                    <nav id="nav" class="active">
                         <ul>
                             <li><a class="page-scroll" href="#about-us">About us</a></li>
                             <li><a class="page-scroll" href="#services">Services</a></li>
-                            <li><a class="page-scroll" href="gallery.html">Gallery</a></li>
+                            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+                            <li><a href="#">Curriculum</a></li>
                             <li><a class="page-scroll" href="#team">Team</a></li>
                             <li><a class="page-scroll" href="contact.html">Contact</a></li>
                         </ul>
@@ -46,25 +49,22 @@
                 </div>
             </header>
             <section class="promo" id="about-us" style="padding:0!important">
-			<img  src="images/img-slide02.jpg" class="img-responsive m1" alt="">
-			
-			
+                <img src="images/img-slide02.jpg" class="img-responsive m1" alt="">
                 <!-- <div class="slider-wrap"> -->
-                    <!-- <ul class="slider"> -->
-                        <!-- <li> -->
-                            <!-- <img class="slide" src="images/img-slide02.jpg" alt=""> -->
-                            <img class="slide-mask" src="images/bg_slider-mask.png" alt=""> 
-                             <div class="slide-info"> 
-                                <h1><a href="#">Inspiring future innovators</a></h1>
-                                <p>We aim at establishing an exemplary chain of early learning centre by Inculcating Righteous & Ultimate Basic Academic Skills with a strong foundation.</p>
-                            </div>
-							
-							<!-- <div class="slide-info1"> 
+                <!-- <ul class="slider"> -->
+                <!-- <li> -->
+                <!-- <img class="slide" src="images/img-slide02.jpg" alt=""> -->
+                <img class="slide-mask" src="images/bg_slider-mask.png" alt="">
+                <div class="slide-info">
+                    <h1><a href="#">Inspiring future innovators</a></h1>
+                    <p>We aim at establishing an exemplary chain of early learning centre by Inculcating Righteous & Ultimate Basic Academic Skills with a strong foundation.</p>
+                </div>
+                <!-- <div class="slide-info1"> 
                                 <center><h1><a href="#">Inspiring future innovations</a></h1></center>
                                <center> <p>We aim at establishing an exemplary chain of early learning centre by Inculcating Righteous & Ultimate Basic Academic Skills with a strong foundation.</p>
                            </center> </div> -->
-                        <!-- </li> -->
-                    <!-- </ul> -->
+                <!-- </li> -->
+                <!-- </ul> -->
                 <!-- </div> -->
             </section>
             <section id="services">
@@ -77,7 +77,9 @@
                                     <img class="img-responsive service-img" src="images/services/Preschool.png">
                                     <h2>Play Group</h2>
                                     <p>Enim ad minim veniam nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure dolor.</p>
-                                    <button class="btn btn-primary" href="#">Explore now</button>
+                                    <div class="service-explore">
+                                        <a href="#">Explore now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +89,9 @@
                                     <img class="img-responsive service-img" src="images/services/abacus.png">
                                     <h2>Edu-Act</h2>
                                     <p>Perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam aperiam eaque dolor lorem.</p>
-                                    <button class="btn btn-primary" href="#">Explore now</button>
+                                    <div class="service-explore">
+                                        <a href="#">Explore now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,45 +101,43 @@
                                     <img class="img-responsive service-img" src="images/services/Tuition.png">
                                     <h2>After School Enrichment Centre</h2>
                                     <p>Accusamus et iusto dignissimos ducimus blanditiis praesentium voluptatum deleniti corrupti quos dolores et quas molestias.</p>
-                                    <button class="btn btn-primary" href="#">Explore now</button>
+                                    <div class="service-explore">
+                                        <a href="#">Explore now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="gallery1">
+            <section id="gallery">
                 <div class="widget-boxes news">
                     <h2>Gallery</h2>
                     <div id="wrapper" class="gallery">
-		<div class="wrapper-holder">
-			<div class="dvdr"></div>
-			<div class="container">
-				
-					<h1>Sneek peak our photo gallery. You can find here our kids and photos from events</h1>
-				<div class="tabs">
-                        <ul >
-                            <li><a href="gallery.html" >Show All</a>
-                            
-                        </ul>
-                    </div> 
-					
-					<ul class="slider sortable-grid">
-						<li>
-							<ul>
-							<li class="grid-item parties">
-								<a href="#"><img src="images/gallery/1.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/gallery/2.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/gallery/3.jpg" alt="" />
-								<div class="mask"></div></a>
-                         </li>
-                    </li>
-                          
-                </div>
+                        <div class="wrapper-holder">
+                            <div class="dvdr"></div>
+                            <div class="container">
+                                <h1>Sneek peak our photo gallery. You can find here our kids and photos from events</h1>
+                                <div class="tabs">
+                                    <ul>
+                                        <li><a href="gallery.html">Show All</a>
+                                    </ul>
+                                </div>
+                                <ul class="slider sortable-grid">
+                                    <li>
+                                        <ul>
+                                            <li class="grid-item parties">
+                                                <a href="#"><img src="images/gallery/1.jpg" alt="" />
+                                <div class="mask"></div></a>
+                                                <li class="grid-item kids">
+                                                    <a href="#"><img src="images/gallery/2.jpg" alt="" />
+                                <div class="mask"></div></a>
+                                                    <li class="grid-item kids">
+                                                        <a href="#"><img src="images/gallery/3.jpg" alt="" />
+                                <div class="mask"></div></a>
+                                                    </li>
+                                                </li>
+                            </div>
             </section>
             <section id="team">
                 <div class="widget-boxes news">
@@ -169,36 +171,73 @@
                     </div>
                 </div>
             </section>
-        </div>
-        <div class="top-blue-border"></div>
-        <footer id="footer">
-            <div class="footer-holder">
-                <div class="footer-frame">
-                    <div class="footer-bottom">
-                        <div class="holder">
-                            <p>Copyright &copy;
-                                <script language="JavaScript" type="text/javascript">
-                                now = new Date
-                                theYear = now.getYear()
-                                if (theYear < 1900)
-                                    theYear = theYear + 1900
-                                document.write(theYear)
-                                </script>
-                                <a href="/"><img class="slide" src="images/logo.png" alt="" width="150"> Academy.</a>
-                            </p>
+            </div>
+            <div class="top-blue-border"></div>
+            <footer id="footer">
+                <div class="footer-holder">
+                    <div class="footer-frame">
+                        <div class="footer-content">
+                            <div class="row">
+                                <div class=" col-holder">
+                                    <div class=" col_wrap">
+                                        <div class="col">
+                                            <h3>Our address</h3>
+                                            <address class="map">Neithal Street,Fathima Nagar</address>
+                                            <address class="map"> Valasaravakkam,Chennai -87</address>
+                                            <address class="mail"><a href="mailto:contact@kidschool.com">admin@irubas.co.in</a></address>
+                                            <address class="phone">+ 91 9840447529</address>
+                                        </div>
+                                    </div>
+                                    <div class="col_wrap">
+                                        <div class="col">
+                                            <h3>Follow us</h3>
+                                            <p class="social">Visit our social profiles</p>
+                                            <ul class="social">
+                                                <li><a class="facebook" href="#">Facebook</a></li>
+                                                <li><a class="google" href="#">Google+</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col_wrap">
+                                        <div class="col">
+                                            <h3>contact us</h3>
+                                            <p class="form-newsletter">Do you like to hear more from us.</p>
+                                            <form action="#" class="form-newsletter">
+                                                <fieldset>
+                                                    <input type="email" placeholder="Your email..." />
+                                                    <input class="btn white" type="submit" value="Subscribe" />
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="holder">
+                                <p>Copyright &copy;
+                                    <script language="JavaScript" type="text/javascript">
+                                    now = new Date
+                                    theYear = now.getYear()
+                                    if (theYear < 1900)
+                                        theYear = theYear + 1900
+                                    document.write(theYear)
+                                    </script>
+                                    <a href="index.html"><img class="slide" src="images/logo.png" alt=""></a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </footer>
             </div>
-        </footer>
-    </div>
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!-- <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script> -->
-    <!-- <script type="text/javascript">
+            <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+            <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+            <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+            <!-- <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script> -->
+            <!-- <script type="text/javascript">
     jQuery(document).ready(function($) {
         var theme_slider = $("#owl-demo");
         var owl = $('#owl-demo');
@@ -230,12 +269,13 @@
         })
     });
     </script> -->
-    <script>
-	if (screen.width <= 767) {
-	$(document).ready(function(){
-    ul li a{display:none}
-})
-}</script>
+            <script>
+            if (screen.width <= 767) {
+                $(document).ready(function() {
+                    ul li a { display: none }
+                })
+            }
+            </script>
 </body>
 
 </html>
