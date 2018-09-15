@@ -1159,12 +1159,15 @@ input.white[type=submit]:hover{
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 20px 20px;
-	font-size: 14px;
 	line-height: 16px;
+	font-family: 'Gochi Hand', cursive;
+    font-size: 24px;
+    color: #f97e02;
 }
 .footer-bottom .holder img {
 	position: relative;
     margin-bottom: 15px;
+    width: 100px;
 }
 /* Media screens
 ------------------------------------------------------------------------------*/
