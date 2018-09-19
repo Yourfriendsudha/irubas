@@ -949,7 +949,7 @@ input.white[type=submit]:hover{
 	display: inline-block;
 	width: 270px;
 	height: 274px;
-	margin: 15px;
+	margin: 45px;
 }
 .gallery .slider ul li  img{
 	width: 100%;
@@ -1815,4 +1815,136 @@ body{overflow-x:hidden!important}
 	top: 0;
 	left: 0;
 	background: url(../images/bg_person-mask.png) no-repeat;
+}
+
+.home-video-area {
+  margin-top:2%;
+  margin-bottom:2%;
+    background-color: #f97e02;
+}
+
+.video-left {
+ padding:16%;
+    background: url(../images/academy.jpg) no-repeat center center/cover;
+}
+
+.video-area .overlay-bg {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: .6
+}
+
+.video-area .video-content {
+    position: relative;
+    z-index: 2
+}
+.video-content
+{
+	margin-left:25%;
+  margin-right:25%;
+}
+.video-area {
+    background-color: #f9f9ff
+}
+
+.ply-btn {
+    padding-left: 25%
+}
+
+
+.video-right {
+    padding: 10%
+}
+
+.video-right p span {
+    font-weight: 500;
+    color: #222
+}
+
+.video-right .top-title {
+    color: #3bacf0;
+    letter-spacing: 2px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.video-right h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+@media (max-width: 1366px) {
+    .video-right {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+@media (max-width: 990px) {
+    .video-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .video-right .top-title {
+    color: #3bacf0;
+    letter-spacing: 2px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+}
+
+@media (max-width: 500px) {
+    .video-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+.founder-content
+{
+	padding-top:5%;
+	padding-left :10%;
+}
+
+.founder-content h2{
+	margin: 0 0 6px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 28px;
+	color: #1f3c71;
+}
+.founder-img
+{
+	display:inline;
+margin-top:5%;
+
+}
+.ceoimg
+{
+	flex: 0 0 100%;
+        max-width: 80%;
+        max-height: 80%;
+        padding-left: 10%;
+        padding-right:10%;
+   
+
+}
+.ceotext
+{	
+	text-align: center;
+	margin-right: 20%;
 }
