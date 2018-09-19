@@ -1952,3 +1952,17 @@ margin-top:5%;
 	text-align: center;
 	margin-right: 20%;
 }
+
+.primary-areas {
+	list-style: inherit;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 26px;
+}
+
+.main-components {
+	list-style: inherit;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 26px;
+	padding-left: 140px;
+    margin-bottom: 30px;
+}
