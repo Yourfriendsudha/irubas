@@ -1185,6 +1185,10 @@ input.white[type=submit]:hover{
     margin-bottom: 15px;
     width: 100px;
 }
+
+#contactForm #success {
+	padding-top: 17px;
+}
 /* Media screens
 ------------------------------------------------------------------------------*/
 
