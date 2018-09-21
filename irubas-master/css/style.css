@@ -1239,7 +1239,7 @@ input.white[type=submit]:hover {
 
 .play-group-content {
     font-family: 'Schoolbell', cursive;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 30px;
     text-align: justify;
     word-spacing: 6px;
@@ -1247,6 +1247,7 @@ input.white[type=submit]:hover {
 
 .play-group-content span {
     color: #f97e02;
+    font-weight: 700;
 }
 
 
