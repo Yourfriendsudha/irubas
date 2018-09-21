@@ -1260,7 +1260,19 @@ input.white[type=submit]:hover {
     font-weight: 700;
 }
 
+.fa-heart
+{
+color: #e91d1d;
+}
 
+.playgroup-fees h1
+{
+	font-size: 30px;
+}
+.playgroup-fees .fa
+{
+	color: #45990b;
+}
 /* Sidebar
 ------------------------------------------------------------------------------*/
 
@@ -1568,6 +1580,19 @@ input.white[type=submit]:hover {
     font-size: 26px;
     padding-left: 140px;
     margin-bottom: 30px;
+}
+
+.fees-components {
+    
+    font-family: 'Schoolbell', cursive;
+    font-size: 24px;
+    /*margin-left: 7%;*/
+    
+    margin-bottom: 30px;
+}
+.fees-components th
+{
+	font-size: 30px;
 }
 
 
