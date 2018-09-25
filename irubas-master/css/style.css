@@ -1608,6 +1608,9 @@ color: #e91d1d;
     font-size: 18px;
 }
 
+.fees-components .table .table-hover tbody tr:hover > th {
+  background-color: #D1D119;
+}
 
 /* Media screens
 ------------------------------------------------------------------------------*/
