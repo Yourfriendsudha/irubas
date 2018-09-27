@@ -1585,17 +1585,27 @@ color: #e91d1d;
     margin-bottom: 30px;
 }
 
-.fees-components {
+/*.fees-components {
     
     font-family: 'Schoolbell', cursive;
     font-size: 24px;
     /*margin-left: 7%;*/
     
-    margin-bottom: 30px;
+   /* margin-bottom: 30px;
 }
 .fees-components th
 {
 	font-size: 30px;
+}*/
+
+.fees-components {
+    font-family: 'Schoolbell', cursive;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.fees-components p {
+    font-size: 18px;
 }
 
 .fees-components .table .table-hover tbody tr:hover > th {
